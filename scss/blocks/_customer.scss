@@ -1,0 +1,143 @@
+.customer{
+margin: 0 auto;
+width: 1240px;
+height: 917px;
+border: 1px solid brown;
+background: #0B7572;
+display: flex;
+
+.customer__container{
+ height: 100%;
+ width: 1140px;
+ margin: 0 auto;
+ background: #0B7572;
+ display: flex;
+}
+.customer__heading{
+height: 109px;
+width: 430px;
+margin-left: 33px;
+margin-top: 100px;
+}
+.customer__heading h2{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #fff;
+}
+.customer__box{
+background-color: #fff;
+width: 652px;
+height: 747px;
+margin-top: 82px;
+border-radius: 10px;
+}
+.cs__box__head{
+width: 571px;
+height: 62px;
+margin: 28px auto 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.cs__box__head p{
+    font-family: 'exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 150%;
+    color: #a8a8a8;
+    width: 273px;
+}
+.cs__box__menu{
+width: 588px;
+height: 45px;
+background-color: #0B7572;
+margin: 50px auto 0;
+border-radius: 1px;
+}
+.csb__menu__list{
+display: flex;
+width: 100%;
+height: 100%;
+list-style: none;
+justify-content: space-around;
+margin-left: -50px;
+align-items: center;
+}
+.csb__menu__list li{
+border-right: 0.5px solid rgb(190, 190, 190);
+}
+.csb__menu__list a{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.cs__box__any{
+width: 588px;
+height: 508px;
+margin: 60px auto 0;
+}
+.csba__top{
+display: flex;
+width: 551px;
+height: 115px;
+}
+.csba__top img{
+width: 81px;
+height: 74px;
+}
+.csba__top__item{
+ display: flex;
+ margin-left: 35px;
+ align-items:flex-start;
+ gap: 25px;
+}
+.csba__top__item p{
+    font-family: 'Exo 2';
+    width: 112px;
+    height: 90px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #6B6B6C;
+}
+.any__top__span{
+    font-family: 'Exo 2';
+    height: 165px;
+    width: 141px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135%;
+    color: #363738;
+    margin-top: 12px;
+}
+
+}
+
+@media only screen and (max-width:768px){
+ .customer{
+  width: 100%;
+  height: 1100px;
+ }
+ .customer__container{
+ width: 100%;
+ height: 100%;
+ flex-direction: column;
+}
+.customer__box{
+ margin: 0 auto;
+}
+
+}

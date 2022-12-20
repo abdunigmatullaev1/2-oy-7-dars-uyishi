@@ -1,0 +1,102 @@
+.contact{
+width: 1240px;
+height: 505px;
+margin: 0 auto 100px;
+border: 1px solid;
+
+.contact__container{
+width: 100%;
+height: 100%;
+}
+.contact__box{
+  display: flex;
+  justify-content: space-between;
+}
+.con__box__left{
+width: 260px;
+
+}
+.conb__left__list{
+width: 100%;
+list-style: none;
+}
+.conbl__item{
+margin-bottom: 44px;
+}
+.conbl__item a{
+    font-family: 'Exo 2';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #363738;
+margin-left: 20px;
+text-decoration: none;
+}
+.con__box__right{
+width: 794px;
+height: 383px;
+border: 1px solid;
+}
+.conb__right__list{
+width: 100%;
+height: 100%;
+}
+.conbr__item{
+display: flex;
+width: 100%;
+height: 31px;
+justify-content:space-between;
+align-items: center;
+margin-bottom: 32px;
+}
+.conbr__item p{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 125%;
+    color: #6B6B6C; 
+}
+.conbr__item h5{
+    width: 443px;
+    font-family: 'Exo 2';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 125%;
+color: #363738;
+margin-right: 40px;
+}
+.contact__heading h2{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #363738;
+}
+
+}
+
+@media only screen and (max-width:768px){
+
+    .contact{
+    width: 690px;
+    margin: 60px auto;
+    }
+    .contact__container{
+    width: 100%;
+    }
+    .contact__box{
+      width: 688px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .con__box__right{
+     max-width: 690px;
+    }
+    .conb__right__list{
+    width: 690px;
+    }
+}

@@ -1,0 +1,879 @@
+.header {
+  width: 100%;
+  height: 1200px;
+  border: 1px solid aquamarine;
+  margin: 0 auto 100px;
+}
+.header .header__container {
+  width: 100%;
+  height: 790px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__left {
+  width: 610px;
+  margin-left: 100px;
+}
+.header .header__left h1 {
+  width: 100%;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 125%;
+  color: #363738;
+}
+.header .header__left p {
+  width: 550px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.header .header__left a {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #363738;
+}
+.header .header__img {
+  width: 599px;
+  height: 100%;
+  border: yellow;
+  background: #0B7572;
+  position: relative;
+}
+.header .img_absolute {
+  position: absolute;
+  left: 705px;
+  top: 109px;
+}
+.header .header__list {
+  width: 1240px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: -100px;
+  position: relative;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  gap: 169px;
+  height: 431px;
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  box-shadow: 1px 1px 0.6px 3px rgb(172, 168, 168);
+}
+.header .header__item {
+  width: 228px;
+  height: 275px;
+}
+.header .header__item p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+.header .header__item {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 135%;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  color: #363738;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 768px;
+  }
+  .header__container {
+    width: 100%;
+  }
+  .img_absolute {
+    margin-left: -600px;
+    margin-top: 500px;
+    margin-bottom: 200px;
+  }
+  .header__list {
+    width: 767px;
+    position: sticky;
+    margin-top: 1300px;
+  }
+}
+.how {
+  width: 1108px;
+  height: 722px;
+  border: 1px solid rgb(255, 0, 0);
+  margin-left: 100px;
+  margin-bottom: 110px;
+}
+
+.how__container {
+  width: 100%;
+  height: 100%;
+}
+
+.how__heading {
+  width: 687px;
+  height: 122px;
+}
+
+.how__heading h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+  margin-top: -16px;
+}
+
+.how__heading p {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-top: -10px;
+}
+
+.how__box {
+  height: 550px;
+  width: 687px;
+}
+
+.how__list {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  gap: 16px;
+}
+
+.how__item {
+  width: 687px;
+  height: 176px;
+  margin-bottom: 16px;
+  box-shadow: 0.1px 0.1px 0.1px 3px rgb(226, 219, 219);
+  border-radius: 10px;
+}
+
+.how__item img {
+  position: relative;
+  margin-left: 495px;
+  margin-top: -10px;
+}
+
+.how__item h5 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+}
+
+.how__item p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  width: 466px;
+  color: #6B6B6C;
+}
+
+@media only screen and (max-width: 768px) {
+  .how {
+    width: 100%;
+    margin: 0 auto 100px;
+  }
+  .how__heading {
+    margin-left: 40px;
+    margin-bottom: 60px;
+  }
+}
+.why {
+  width: 1340px;
+  height: 749px;
+  margin-bottom: 100px;
+  border: 1px solid pink;
+}
+.why .why__container {
+  width: 100%;
+  height: 100%;
+}
+.why .why__top {
+  display: flex;
+  width: 100%;
+  height: 453px;
+}
+.why .why__img1 {
+  position: relative;
+}
+.why .why__img2 {
+  position: absolute;
+  display: flex;
+  margin-left: 300px;
+}
+.why .why__bottom {
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+}
+.why .whybl__list {
+  width: 412px;
+  height: 222px;
+  list-style: none;
+}
+.why .whybr__list {
+  list-style: none;
+  height: 222px;
+  width: 412px;
+}
+.why .whybl__item {
+  width: 412px;
+  height: 80px;
+  display: flex;
+  margin-bottom: 62px;
+}
+.why .whybr__item {
+  width: 412px;
+  height: 80px;
+  display: flex;
+  margin-bottom: 62px;
+}
+.why .whybl__item div {
+  height: 70px;
+  width: 291px;
+}
+.why .whybl__item div h5 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.why .whybl__item div p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+.why .whybr__item div h5 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.why .whybr__item div p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+.why .whybr__item div {
+  height: 60px;
+  width: 291px;
+  margin-top: -20px;
+}
+.why .whybl__item div {
+  height: 60px;
+  width: 291px;
+  margin-top: -20px;
+}
+.why .whybl__item img {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.why .whybr__item img {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .why {
+    width: 100%;
+    margin: 100px auto;
+    height: 950px;
+  }
+  .why__container {
+    width: 100%;
+    height: 100%;
+  }
+  .why__bottom {
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+    margin-top: -100px;
+  }
+}
+.work {
+  width: 1239px;
+  height: 710px;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
+.work .work_-container {
+  width: 100%;
+  height: 100%;
+}
+.work .work__heading {
+  max-height: 112px;
+  max-width: 687px;
+}
+.work .work__heading h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+  margin-top: -16px;
+}
+.work .work__heading p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-top: -25px;
+}
+.work .work__list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  width: 100%;
+  margin-left: -42px;
+  margin-top: 56px;
+}
+.work .work__item {
+  width: 392px;
+  height: 439px;
+  border: 0.1px solid rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.work .work__item h5 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+  margin-top: -1px;
+  margin-left: 25px;
+}
+.work .work__item p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-left: 25px;
+  width: 291px;
+}
+
+@media only screen and (max-width: 768px) {
+  .work {
+    width: 100%;
+    height: 1520px;
+    margin: 0 auto 70px;
+  }
+  .work__container {
+    width: 690px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .work__list {
+    flex-direction: column;
+  }
+  .work__item img {
+    width: 690px;
+    height: 245px;
+  }
+}
+.customer {
+  margin: 0 auto;
+  width: 1240px;
+  height: 917px;
+  border: 1px solid brown;
+  background: #0B7572;
+  display: flex;
+}
+.customer .customer__container {
+  height: 100%;
+  width: 1140px;
+  margin: 0 auto;
+  background: #0B7572;
+  display: flex;
+}
+.customer .customer__heading {
+  height: 109px;
+  width: 430px;
+  margin-left: 33px;
+  margin-top: 100px;
+}
+.customer .customer__heading h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  color: #fff;
+}
+.customer .customer__box {
+  background-color: #fff;
+  width: 652px;
+  height: 747px;
+  margin-top: 82px;
+  border-radius: 10px;
+}
+.customer .cs__box__head {
+  width: 571px;
+  height: 62px;
+  margin: 28px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.customer .cs__box__head p {
+  font-family: "exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 150%;
+  color: #a8a8a8;
+  width: 273px;
+}
+.customer .cs__box__menu {
+  width: 588px;
+  height: 45px;
+  background-color: #0B7572;
+  margin: 50px auto 0;
+  border-radius: 1px;
+}
+.customer .csb__menu__list {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  justify-content: space-around;
+  margin-left: -50px;
+  align-items: center;
+}
+.customer .csb__menu__list li {
+  border-right: 0.5px solid rgb(190, 190, 190);
+}
+.customer .csb__menu__list a {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.customer .cs__box__any {
+  width: 588px;
+  height: 508px;
+  margin: 60px auto 0;
+}
+.customer .csba__top {
+  display: flex;
+  width: 551px;
+  height: 115px;
+}
+.customer .csba__top img {
+  width: 81px;
+  height: 74px;
+}
+.customer .csba__top__item {
+  display: flex;
+  margin-left: 35px;
+  align-items: flex-start;
+  gap: 25px;
+}
+.customer .csba__top__item p {
+  font-family: "Exo 2";
+  width: 112px;
+  height: 90px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 135%;
+  color: #6B6B6C;
+}
+.customer .any__top__span {
+  font-family: "Exo 2";
+  height: 165px;
+  width: 141px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135%;
+  color: #363738;
+  margin-top: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .customer {
+    width: 100%;
+    height: 1100px;
+  }
+  .customer__container {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .customer__box {
+    margin: 0 auto;
+  }
+}
+.stage {
+  width: 1232px;
+  height: 880px;
+  margin: 100px auto;
+}
+.stage .stage__container {
+  width: 100%;
+  height: 100%;
+}
+.stage .stage__heading h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+.stage .stage__box {
+  height: 783px;
+  width: 1183px;
+}
+.stage .sg__box__list {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  margin: 0 auto;
+  margin-left: -42px;
+}
+.stage .sg__box__item {
+  width: 1183px;
+  height: 245px;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  box-shadow: 1px 1px 6px 0.6px rgb(168, 168, 168);
+}
+.stage .sg__box__desc {
+  height: 156px;
+  width: 568px;
+  margin-left: 56px;
+}
+.stage .sg__box__desc h5 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+  color: #363738;
+}
+.stage .sg__box__desc p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+
+@media only screen and (max-width: 768px) {
+  .stage {
+    width: 690px;
+    height: 860px;
+    margin: 0 auto;
+  }
+  .stage__container {
+    width: 100%;
+    height: 100%;
+  }
+  .sg__box__item {
+    max-width: 640px;
+  }
+  .sg__box__item img {
+    display: none;
+  }
+}
+.trust {
+  width: 1212px;
+  height: 576px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+.trust .trust__container {
+  width: 100%;
+  height: 100%;
+}
+.trust .trust__heading h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 125%;
+  color: #363738;
+}
+.trust .trust__box {
+  height: 440px;
+  width: 100%;
+}
+.trust .trust__left {
+  display: flex;
+  list-style: none;
+  width: 97%;
+  height: 50%;
+  margin-top: 40px;
+  align-items: center;
+}
+.trust .trust__right {
+  display: flex;
+  list-style: none;
+  width: 97%;
+  height: 50%;
+  align-items: center;
+}
+.trust .trust__box li {
+  width: 303px;
+  text-align: center;
+  border-right: 1px solid rgb(185, 185, 185);
+}
+
+@media only screen and (max-width: 768px) {
+  .trust {
+    width: 687px;
+    height: 1001px;
+    margin: 60px auto;
+  }
+  .trust__container {
+    width: 100%;
+    height: 100%;
+  }
+  .trust__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .trust__left {
+    flex-direction: column;
+  }
+  .trust__right {
+    flex-direction: column;
+  }
+}
+.comand {
+  width: 1240px;
+  height: 800px;
+  margin: 100px auto 100px;
+  border: 1px solid;
+}
+.comand .comand__container {
+  width: 100%;
+  height: 100%;
+}
+.comand .comand__heading h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+.comand .comand__box {
+  display: flex;
+  margin-left: -50px;
+}
+.comand .comand__box ul {
+  align-items: center;
+}
+.comand .comand__box li {
+  width: 605px;
+  height: 210px;
+  display: flex;
+  box-shadow: 1px 1px 1px 0.6px rgb(161, 159, 159);
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.comand .comand__box img {
+  width: 138px;
+  height: 138px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .comand {
+    width: 690px;
+    height: 805px;
+    margin: 0 auto;
+  }
+  .comand__container {
+    width: 100%;
+    height: 100%;
+  }
+  .comb__item1 {
+    width: 330px;
+    height: 289px;
+  }
+  .com__box__list1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .com__box__list2 {
+    display: none;
+  }
+}
+.contact {
+  width: 1240px;
+  height: 505px;
+  margin: 0 auto 100px;
+  border: 1px solid;
+}
+.contact .contact__container {
+  width: 100%;
+  height: 100%;
+}
+.contact .contact__box {
+  display: flex;
+  justify-content: space-between;
+}
+.contact .con__box__left {
+  width: 260px;
+}
+.contact .conb__left__list {
+  width: 100%;
+  list-style: none;
+}
+.contact .conbl__item {
+  margin-bottom: 44px;
+}
+.contact .conbl__item a {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.contact .con__box__right {
+  width: 794px;
+  height: 383px;
+  border: 1px solid;
+}
+.contact .conb__right__list {
+  width: 100%;
+  height: 100%;
+}
+.contact .conbr__item {
+  display: flex;
+  width: 100%;
+  height: 31px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.contact .conbr__item p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 125%;
+  color: #6B6B6C;
+}
+.contact .conbr__item h5 {
+  width: 443px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #363738;
+  margin-right: 40px;
+}
+.contact .contact__heading h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    width: 690px;
+    margin: 60px auto;
+  }
+  .contact__container {
+    width: 100%;
+  }
+  .contact__box {
+    width: 688px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .con__box__right {
+    max-width: 690px;
+  }
+  .conb__right__list {
+    width: 690px;
+  }
+}
+.lending {
+  width: 1440px;
+  height: 10000px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .lending {
+    width: 768px;
+    margin: 0 auto;
+  }
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
